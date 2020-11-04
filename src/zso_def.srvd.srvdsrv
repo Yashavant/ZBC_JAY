@@ -1,0 +1,4 @@
+@EndUserText.label: 'Orde Service Defination'
+define service ZSO_DEF {
+  expose ZSD_SO;
+}
