@@ -11,10 +11,11 @@ as projection on ZI_RAP_TRAVEL_YASH as Travel
     @Search.defaultSearchElement: true
     TravelID,
     @Search.defaultSearchElement: true
-    @ObjectModel.text.element: ['AgencyName'] //Display Name of Agency while searching
-    @Consumption.valueHelpDefinition: [{ entity :{ name: '/DMO/I_Agency', element: 'AgencyID' } }]
+    //@ObjectModel.text.element: ['AgencyName'] //Display Name of Agency while searching
+    //@Consumption.valueHelpDefinition: [{ entity :{ name: '/DMO/I_Agency', element: 'AgencyID' } }]
+     @Consumption.valueHelpDefinition: [{ entity : {name: 'zce_rap_agency_yash', element: 'AgencyId' } }]
     AgencyID,
-    _Agency.Name as AgencyName,
+    //_Agency.Name as AgencyName,
     @Search.defaultSearchElement: true
     @ObjectModel.text.element: ['CustomerName']
     @Consumption.valueHelpDefinition: [{ entity :{ name: '/DMO/I_Customer', element: 'CustomerID' } }]

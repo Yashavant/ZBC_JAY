@@ -12,7 +12,9 @@ ENDCLASS.
 
 
 
-CLASS zcl_generate_demo_data_yash IMPLEMENTATION.
+CLASS ZCL_GENERATE_DEMO_DATA_YASH IMPLEMENTATION.
+
+
   METHOD if_oo_adt_classrun~main.
 
     DELETE FROM zrap_atrav_yash.
@@ -69,5 +71,4 @@ CLASS zcl_generate_demo_data_yash IMPLEMENTATION.
 
     out->write( 'Travel & Booking Data inserted' ).
   ENDMETHOD.
-
 ENDCLASS.

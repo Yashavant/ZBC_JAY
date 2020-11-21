@@ -11,7 +11,9 @@ ENDCLASS.
 
 
 
-CLASS zcl_rap_eml_yash IMPLEMENTATION.
+CLASS ZCL_RAP_EML_YASH IMPLEMENTATION.
+
+
   METHOD if_oo_adt_classrun~main.
 *  1. Step- Read
 *    READ ENTITIES OF zi_rap_travel_yash
@@ -93,5 +95,4 @@ CLASS zcl_rap_eml_yash IMPLEMENTATION.
     out->write( 'Delete Done' ).
 
   ENDMETHOD.
-
 ENDCLASS.

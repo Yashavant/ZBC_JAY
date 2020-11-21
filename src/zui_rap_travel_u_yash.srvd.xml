@@ -3,9 +3,9 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <SRVD>
-    <NAME>ZUI_RAP_TRAVEL_YASH</NAME>
+    <NAME>ZUI_RAP_TRAVEL_U_YASH</NAME>
     <TYPE>SRVD/SRV</TYPE>
-    <DESCRIPTION>Serv Def for ZC_RAP_TRAVEL_YASH</DESCRIPTION>
+    <DESCRIPTION>Travel data</DESCRIPTION>
     <LANGUAGE>EN</LANGUAGE>
     <LINKS>
      <item>
@@ -13,11 +13,11 @@
        <UNDEFINED_ATTRIBUTES>
         <item>
          <NAME>etag</NAME>
-         <TEXT>19710401000000001text/plain_jfN8Tpnn5VGg/1ERXFTGj4qj7NI=</TEXT>
+         <TEXT>19710401000000001text/plain_T81pUrg/CGP+EV/TjQSv6vEXWP4=</TEXT>
         </item>
        </UNDEFINED_ATTRIBUTES>
       </COMMON_ATTRIBUTES>
-      <HREF>./zui_rap_travel_yash/source/main</HREF>
+      <HREF>./zui_rap_travel_u_yash/source/main</HREF>
       <REL>http://www.sap.com/adt/relations/source</REL>
       <TYPE>text/plain</TYPE>
       <TITLE>Source Content</TITLE>
@@ -30,19 +30,19 @@
         </item>
        </UNDEFINED_ATTRIBUTES>
       </COMMON_ATTRIBUTES>
-      <HREF>./zui_rap_travel_yash/source/main</HREF>
+      <HREF>./zui_rap_travel_u_yash/source/main</HREF>
       <REL>http://www.sap.com/adt/relations/source</REL>
       <TYPE>text/html</TYPE>
       <TITLE>Source Content (HTML)</TITLE>
      </item>
      <item>
-      <HREF>./zui_rap_travel_yash/source/main/versions</HREF>
+      <HREF>./zui_rap_travel_u_yash/source/main/versions</HREF>
       <REL>http://www.sap.com/adt/relations/versions</REL>
       <TITLE>Historic versions</TITLE>
      </item>
     </LINKS>
     <MASTER_LANGUAGE>EN</MASTER_LANGUAGE>
-    <SOURCE_URI>./zui_rap_travel_yash/source/main</SOURCE_URI>
+    <SOURCE_URI>./zui_rap_travel_u_yash/source/main</SOURCE_URI>
     <SOURCE_TYPE>ABAP_SOURCE</SOURCE_TYPE>
     <SOURCE_ORIGIN_DESCRIPTION>ABAP Development Tools</SOURCE_ORIGIN_DESCRIPTION>
     <SRVD_SOURCE_TYPE>S</SRVD_SOURCE_TYPE>

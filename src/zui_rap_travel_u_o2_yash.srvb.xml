@@ -4,13 +4,13 @@
   <asx:values>
    <SRVB>
     <METADATA>
-     <NAME>ZUI_RAP_TRAVEL_Q2_YASH</NAME>
+     <NAME>ZUI_RAP_TRAVEL_U_O2_YASH</NAME>
      <TYPE>SRVB/SVB</TYPE>
-     <DESCRIPTION>OData V2 UI Service for SAP Fiori Travel App</DESCRIPTION>
+     <DESCRIPTION>Travel</DESCRIPTION>
      <LANGUAGE>EN</LANGUAGE>
      <LINKS>
       <item>
-       <HREF>/sap/bc/adt/businessservices/odatav2/ZUI_RAP_TRAVEL_Q2_YASH</HREF>
+       <HREF>/sap/bc/adt/businessservices/odatav2/ZUI_RAP_TRAVEL_U_O2_YASH</HREF>
        <REL>http://www.sap.com/categories/odatav2</REL>
        <TYPE>application/vnd.sap.adt.businessservices.odatav2.v2+xml</TYPE>
        <TITLE>ODATAV2</TITLE>
@@ -26,20 +26,20 @@
     </METADATA>
     <CONTENT>
      <BIND_TYPE_IMPL>
-      <NAME>ZUI_RAP_TRAVEL_Q2_YASH</NAME>
+      <NAME>ZUI_RAP_TRAVEL_U_O2_YASH</NAME>
      </BIND_TYPE_IMPL>
      <BIND_TYPE>ODATA</BIND_TYPE>
      <BIND_TYPE_VERSION>V2</BIND_TYPE_VERSION>
      <SERVICES>
       <item>
-       <SERVICE_NAME>ZUI_RAP_TRAVEL_Q2_YASH</SERVICE_NAME>
+       <SERVICE_NAME>ZUI_RAP_TRAVEL_U_O2_YASH</SERVICE_NAME>
        <SERVICE_CONTENT>
         <item>
          <SERVICE_VERSION>0001</SERVICE_VERSION>
          <SRVD_REF>
-          <URI>/sap/bc/adt/ddic/srvd/sources/zui_rap_travel_yash</URI>
+          <URI>/sap/bc/adt/ddic/srvd/sources/zui_rap_travel_u_yash</URI>
           <TYPE>SRVD/SRV</TYPE>
-          <NAME>ZUI_RAP_TRAVEL_YASH</NAME>
+          <NAME>ZUI_RAP_TRAVEL_U_YASH</NAME>
          </SRVD_REF>
         </item>
        </SERVICE_CONTENT>

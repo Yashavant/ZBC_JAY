@@ -10,7 +10,11 @@ CLASS zcl_so DEFINITION
     METHODS: get_data.
 ENDCLASS.
 
-CLASS zcl_so IMPLEMENTATION.
+
+
+CLASS ZCL_SO IMPLEMENTATION.
+
+
   METHOD get_data.
     SELECT *
     FROM zsd_order
@@ -20,11 +24,14 @@ CLASS zcl_so IMPLEMENTATION.
     ENDIF.
   ENDMETHOD.
 
+
   METHOD if_oo_adt_classrun~main.
     DATA: it_so TYPE STANDARD TABLE OF zsd_order.
     it_so = VALUE #( ( vbeln = '3' erdat = sy-datum werks = '1000') ).
+
+    DATA(lv_str) =  'This is first line'.
+
     MODIFY zsd_order FROM TABLE @it_so.
     commit WORK.
   ENDMETHOD.
-
 ENDCLASS.
